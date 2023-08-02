@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Calculator</title>
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    <div class="container">
+       <h1>Length Converter</h1>
+       <span class="select">
+            <select id="inputType">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="centimeter">Centimeter</option>
+            </select>
+            <p>to</p>
+            <select id="resultType">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="centimeter">Centimeter</option>
+            </select>
+        </span>
+        <input type="text" placeholder="Enter to convert" id="input">
+        <button id="btn">Convert</button>
+        
+       <div id="result"></div>
+    </div>
+<script src="asset/script.js"></script>
+</body>
+</html>

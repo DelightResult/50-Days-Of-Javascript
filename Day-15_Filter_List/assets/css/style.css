@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.container #listItems{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+.container input[type="text"]{
+    font-size: 1.2rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(99, 166, 230);
+    padding: 5px 2px;
+}
+.container #listItems li a{
+    padding: 5px;
+    border-radius: 5px;
+    color:rgb(15, 92, 136);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    display: block;
+}
